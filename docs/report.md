@@ -1,5 +1,5 @@
 📄 Project Report: AI-Based Autonomous Navigation System
-👤 Student Name: Harsh Suresh Kolte
+👤 Student Name: Vaidehi Dhiraj Pawar
 🛠️ Project Overview:
 I have built a 2D simulation that mimics the decision-making of an autonomous vehicle. It uses the A (A-Star) Algorithm* to find the shortest path between a start point and an end point while avoiding obstacles.
 
