@@ -1,0 +1,58 @@
+\# 🚗 AI-Based Autonomous Navigation System
+
+
+
+\## 📌 Project Overview
+
+This project is a high-performance 2D simulation of an \*\*AI Autonomous Navigation System\*\*. It utilizes the \*\*A\* (A-Star) Pathfinding Algorithm\*\* to enable a virtual agent to navigate from a start point to a destination while avoiding obstacles in real-time. This project demonstrates the core logic used in modern autonomous vehicles and warehouse robotics.
+
+
+
+\## 🎯 Key Features
+
+\* \*\*Optimal Path Calculation:\*\* Guarantees the shortest path using A\* search logic.
+
+\* \*\*Interactive Environment:\*\* Users can draw custom obstacles using the mouse, and the AI recalculates the path instantly.
+
+\* \*\*Modular Architecture:\*\* Clean code structure separating the simulation, agent logic, and path planning.
+
+\* \*\*Real-time Visualization:\*\* Built with Pygame for a smooth and clear visual output.
+
+
+
+\## 🛠️ Tech Stack
+
+\* \*\*Programming Language:\*\* Python 3.12
+
+\* \*\*Graphics Library:\*\* Pygame
+
+\* \*\*Algorithms:\*\* A\* (A-Star), Heuristic Search, Dijkstra-based cost evaluation.
+
+\* \*\*Data Structures:\*\* Heaps/Priority Queues (via `heapq`).
+
+
+
+\## 📁 Project Structure
+
+```text
+AI-Autonomous-Navigation-System/
+
+│
+
+├── src/
+
+│   ├── main.py            # Entry point of the application
+
+│   ├── agent.py           # Logic for the moving robot/agent
+
+│   ├── path\_planning.py   # A\* algorithm implementation
+
+│   └── simulation.py      # Environment and GUI handling
+
+│
+
+├── images/                # Screenshots of the working simulation
+
+├── video/                 # Screen recording of the AI in action
+
+└── README.md              # Project documentation
